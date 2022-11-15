@@ -1,0 +1,132 @@
+/*---------------------
+  Footer
+-----------------------*/
+.footer {
+  background: $primary-color;
+  padding-top: 70px;
+}
+
+.footer__about {
+  margin-bottom: 30px;
+  
+  .footer__logo {
+    margin-bottom: 30px;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+
+      h3 {
+          color: white;
+        font-weight: 700;
+      }
+    }
+  }
+
+  p {
+    color: $light-pink;
+    margin-bottom: 30px;
+  }
+}
+
+.footer__widget {
+  margin-bottom: 30px;
+
+  h6 {
+    color: $white-color;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+
+    li {
+      line-height: 36px;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: $light-pink;
+        font-size: 15px;
+      }
+    }
+  }
+
+  
+  .footer__newslatter {
+    
+    p {
+      color: $light-pink;
+    }
+
+    form {
+      position: relative;
+
+      input {
+        width: 100%;
+        font-size: 15px;
+        color: $white-color;
+        background: transparent;
+        border: none;
+        padding: 15px 0;
+        border-bottom: 2px solid $white-color;
+
+        &::placeholder {
+          color: $secondary-color;
+        }
+      }
+
+      button {
+        color: $white-color;
+        font-size: 16px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+        height: 100%;
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+}
+
+.footer__copyright__text {
+  border-top: 1px solid $secondary-color;
+  padding: 20px 0;
+  margin-top: 40px;
+
+  p {
+    color: $white-color;
+    margin-bottom: 0;
+
+    i {
+      color: $white-color;
+    }
+
+    a {
+      text-decoration: none;
+      color: $white-color;
+    }
+  }
+}
+
+.footer__social {
+  margin-top: 20px;
+
+  a {
+    padding: 10px 15px;
+    border-radius: 200px;
+    background-color: white;
+    font-size: 16px;
+    color: $primary-color;
+    display: inline-block;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
